@@ -156,8 +156,21 @@ header .container {
     color: var(--text-light);
 }
 
-.logo span {
-    color: var(--accent-color);
+.logo-text {
+    color: var(--text-light);
+}
+
+header .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+header .logo img {
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: contain;
+    display: block;
 }
 
 nav ul {
